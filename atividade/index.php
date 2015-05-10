@@ -160,7 +160,6 @@ try{
 	
 			//prepara a execução da sentença
 		$operacao = $conexao->prepare($SQLSelect);		
-		
 				
 		$pesquisar = $operacao->execute();
 		

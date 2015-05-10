@@ -4,8 +4,8 @@
    $servidor = 'localhost';
    $porta = 3306;
    $banco = "daw_yearbook";
-   $usuario = "daw";
-   $senha = "daw2014";
+   $usuario = "root";
+   $senha = "";
    
       $conn = new PDO("mysql:host=$servidor;
 	                   port=$porta;

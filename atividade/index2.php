@@ -123,7 +123,7 @@ echo "<div id='dados_pessoais'>
    
    	if(empty($_GET['verPerfil'])){
 				echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='./apagarContato.php?login=".htmlspecialchars($contatosEncontrados['email'])."'><button type=\button\ class='send' >Apagar</button></a>";		
-				echo "&nbsp;&nbsp;<a href='./editarPerfil.php?contato=".htmlspecialchars($contatosEncontrados['nomeContato'])."'><button type=\button\ class='send' >Editar</button></a></td></tr>";
+				echo "&nbsp;&nbsp;<a href='./editarPerfil.php?contato=".htmlspecialchars(@$contatosEncontrados['nomeContato'])."'><button type=\button\ class='send' >Editar</button></a></td></tr>";
 			}
 					
 			}
