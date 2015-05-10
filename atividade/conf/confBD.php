@@ -1,4 +1,6 @@
 <?php
+
+//trest
  function conn_mysql(){
 
  		try{
